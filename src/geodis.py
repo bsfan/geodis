@@ -102,7 +102,7 @@ if __name__ == "__main__":
                       action='store_true', default=False,
                       help='Import locations from Geonames data dump')
 
-    parser.add_option("-i", "--import_ip2coutnry", dest="import_ip2location",
+    parser.add_option("-i", "--import_ip2country", dest="import_ip2location",
                       action='store_true', default=False,
                       help='Import ip ranges from ip2country.com dumps')
     parser.add_option("-z", "--import_zipcodes", dest="import_zipcodes",
